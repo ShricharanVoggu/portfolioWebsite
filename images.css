@@ -1,0 +1,40 @@
+body
+{
+    font-family: 'Encode Sans', sans-serif;
+    background-color: lavenderblush;
+    background-size: cover;
+}
+#nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav a
+{
+    font-size: 1.5rem;
+    font-family: 'Encode Sans SC', sans-serif;
+    text-decoration: none;
+}
+#nav a:hover
+{
+    transform: translateY(-3px);
+    color:#14213d;
+}
+img
+{
+    width: 40%;
+    margin: 3% 0;
+    border-radius: 20px;
+}
+img:hover
+{
+    box-shadow: 0px 0px 5px black;
+}
+
+#photos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

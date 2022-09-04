@@ -1,0 +1,97 @@
+body
+{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    color:#000000;
+    font-size: 1.1rem;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+#header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+
+section
+{
+    font-size: 2rem;
+}
+#about , #recognitions , #projects
+{
+    margin: 5% 10%;
+}
+
+
+#header a
+{
+    font-size: large;
+    font-family: 'Encode Sans SC', sans-serif;
+    width: 150px;
+    margin: 20px 5px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    color:  #457b9d;
+    transition: all 3ms ease-out;
+}
+
+#recognitions li
+{
+    margin-top: 10px;
+}
+
+#header a:hover
+{
+    transform: translateY(-3px);
+    color:#14213d;
+}
+
+
+#profilePic
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+#profilePic img{
+    width: 240px;
+    border-radius: 50%;
+    padding: 100px;
+}
+
+#footer img
+{
+   width: 3rem;
+   padding: 0 10px;
+}
+#contactMe
+{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+#footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    align-items: center;
+    border-top: 2px solid grey;
+}
+#footer_details
+{
+    margin-right: 50px;
+}
